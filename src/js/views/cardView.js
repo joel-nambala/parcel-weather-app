@@ -38,7 +38,7 @@ class App {
   // Method to display the current location
   displayLocation(data) {
     // Create a tring based on the datya received
-    const str = `You are currently in ${data.city}, ${data.countryName}.`;
+    const str = `You are currently in ${data.city}, ${data.countryName}. Have fun`;
     console.log(str);
   }
 }
